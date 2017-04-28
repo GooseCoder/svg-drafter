@@ -1,0 +1,37 @@
+{
+  "name": "svg-drafter",
+  "version": "1.0.0",
+  "description": "Diagram drafter library using svg as format output.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register app/**/*.spec.ts"
+  },
+  "keywords": [
+    "drafter",
+    "svg",
+    "typescript"
+  ],
+  "author": "Gustavo Adolfo Cruz Laura gustavo.cruz.laura@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^3.5.1",
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^7.0.14",
+    "@types/snapsvg": "^0.4.28",
+    "@types/uuid": "^2.0.29",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "source-map-loader": "^0.2.1",
+    "ts-lint": "^4.5.1",
+    "ts-loader": "^2.0.3",
+    "ts-node": "^3.0.2",
+    "typescript": "^2.2.2",
+    "typings": "^2.1.1",
+    "webpack": "^2.4.1"
+  },
+  "dependencies": {
+    "inversify": "^2.0.0-rc.14",
+    "reflect-metadata": "^0.1.10",
+    "uuid": "^3.0.1"
+  }
+}
