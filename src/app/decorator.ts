@@ -10,6 +10,7 @@ import {IDecorator} from './decorator.interface'
 export default class Decorator implements IDecorator {
     private id: string
     private type: string
+    private _config: IDecoratorConfiguration
 
     constructor(
         baseConfig: IDecoratorConfiguration,
@@ -21,6 +22,15 @@ export default class Decorator implements IDecorator {
             baseConfig.coordinates,
             decoratorConfig.coordinates
         )
+        this._config = decoratorConfig
+    }
+
+    get config() {
+        return this._config
+    }
+
+    set config(config) {
+        this._config = config
     }
 
     public getId() {
