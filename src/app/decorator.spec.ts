@@ -43,9 +43,9 @@ describe('Decorator', () => {
         )
     })
 
-    describe('coordinates', () => {
-        it('should return processed values', () => {
-            expect(decorator.coordinates).to.equal({
+    describe('config', () => {
+        it('should return calculated coordinates', () => {
+            expect(decorator.config.coordinates).to.be.deep.equal({
                 gx: 40,
                 gy: 50,
                 lx: 30,
