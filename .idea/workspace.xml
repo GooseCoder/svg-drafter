@@ -4,11 +4,11 @@
     <enabled-run-configurations>
       <run-configuration type="mocha-javascript-test-runner" name="Shape.addDecorator" />
       <run-configuration type="mocha-javascript-test-runner" name="Shape (1)" />
-      <run-configuration type="mocha-javascript-test-runner" name="Shape.getBase.should not retrieve an inexistent base" />
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e119208-52d9-4f41-9994-48b16dcf68fb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/decorator.spec.ts" afterPath="$PROJECT_DIR$/src/app/decorator.spec.ts" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,10 +79,10 @@
       <file leaf-file-name="decorator.spec.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/decorator.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="46" column="48" lean-forward="false" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+            <state relative-caret-position="500">
+              <caret line="106" column="26" lean-forward="true" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#0#27#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,7 +101,7 @@
       <file leaf-file-name="decorator.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/decorator.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
+            <state relative-caret-position="420">
               <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -216,8 +216,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -244,26 +242,10 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="svg-drafter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="svg-drafter" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,24 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.Decorator.coordinates">
-    <configuration default="false" name="Shape.getBase.should not retrieve an inexistent base" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options>--require ts-node/register</extra-mocha-options>
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/app/shape.spec.ts</test-file>
-      <test-names>
-        <name value="Shape" />
-        <name value="getBase" />
-        <name value="should not retrieve an inexistent base" />
-      </test-names>
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Mocha.Decorator.config.should merge and replace the configuration attributes for newer ones of present">
     <configuration default="false" name="Shape.addDecorator" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -375,6 +340,23 @@
       <test-names>
         <name value="Decorator" />
         <name value="coordinates" />
+      </test-names>
+      <method />
+    </configuration>
+    <configuration default="false" name="Decorator.config.should merge and replace the configuration attributes for newer ones of present" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options>--require ts-node/register</extra-mocha-options>
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/src/app/decorator.spec.ts</test-file>
+      <test-names>
+        <name value="Decorator" />
+        <name value="config" />
+        <name value="should merge and replace the configuration attributes for newer ones of present" />
       </test-names>
       <method />
     </configuration>
@@ -446,19 +428,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Mocha.Shape.getBase.should not retrieve an inexistent base" />
-      <item index="1" class="java.lang.String" itemvalue="Mocha.Shape.addDecorator" />
-      <item index="2" class="java.lang.String" itemvalue="Mocha.Shape" />
-      <item index="3" class="java.lang.String" itemvalue="Mocha.Shape (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Mocha.Decorator.coordinates" />
+      <item index="0" class="java.lang.String" itemvalue="Mocha.Shape.addDecorator" />
+      <item index="1" class="java.lang.String" itemvalue="Mocha.Shape" />
+      <item index="2" class="java.lang.String" itemvalue="Mocha.Shape (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Mocha.Decorator.coordinates" />
+      <item index="4" class="java.lang.String" itemvalue="Mocha.Decorator.config.should merge and replace the configuration attributes for newer ones of present" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Mocha.Decorator.coordinates" />
-        <item index="1" class="java.lang.String" itemvalue="Mocha.Shape (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Mocha.Shape" />
-        <item index="3" class="java.lang.String" itemvalue="Mocha.Shape.addDecorator" />
-        <item index="4" class="java.lang.String" itemvalue="Mocha.Shape.getBase.should not retrieve an inexistent base" />
+        <item index="0" class="java.lang.String" itemvalue="Mocha.Decorator.config.should merge and replace the configuration attributes for newer ones of present" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.Decorator.coordinates" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.Shape (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Mocha.Shape" />
+        <item index="4" class="java.lang.String" itemvalue="Mocha.Shape.addDecorator" />
       </list>
     </recent_temporary>
   </component>
@@ -477,12 +459,14 @@
       <workItem from="1493042199798" duration="15000" />
       <workItem from="1493386470650" duration="23714000" />
       <workItem from="1494274982813" duration="3872000" />
+      <workItem from="1494334197616" duration="3915000" />
+      <workItem from="1494352117568" duration="1441000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Decorator_coordinates - 2017.05.08 at 17h 27m 19s.xml">
-      <configuration name="Decorator.coordinates" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Decorator_config_should_merge_and_replace_the_configuration_attributes_for_newer_ones_of_present - 2017.05.09 at 11h 20m 44s.xml">
+      <configuration name="Decorator.config.should merge and replace the configuration attributes for newer ones of present" configurationId="mocha-javascript-test-runner" />
     </history-entry>
     <history-entry file="Shape - 2017.04.28 at 10h 39m 09s.xml">
       <configuration name="Shape" configurationId="mocha-javascript-test-runner" />
@@ -513,20 +497,20 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41284000" />
+    <option name="totallyTimeSpent" value="46640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2628205" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26923078" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.50427353" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33152175" sideWeight="0.4957265" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -619,7 +603,7 @@
         <state relative-caret-position="460">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -648,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,9 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#77#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -702,7 +682,7 @@
         <state relative-caret-position="400">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -731,7 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -747,9 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
           <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#77#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -827,7 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -851,7 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -859,9 +833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#77#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -936,7 +907,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/decorator.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
+        <state relative-caret-position="420">
           <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -946,10 +917,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/decorator.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="46" column="48" lean-forward="false" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+        <state relative-caret-position="500">
+          <caret line="106" column="26" lean-forward="true" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
